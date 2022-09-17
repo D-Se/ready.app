@@ -1,26 +1,14 @@
-
-# ready.app
-
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![code size](https://img.shields.io/github/languages/code-size/D-Se/ready.app.svg)](https://github.com/D-Se/ready.app)
 <!-- badges: end -->
 
-The goal of ready.app is to ...
+*Shiny backend for the Ready learning resource*.
 
-## Installation
+## :package: Installation
 
-You can install the development version of ready.app like so:
+The package and website are currently **under construction :construction:**. 
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```r
+remotes::install_github("D-Se/ready.web", dependencies = TRUE)
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(ready.app)
-## basic example code
-```
-
