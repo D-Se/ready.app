@@ -1,0 +1,29 @@
+Package: ready.app
+Title: Ready yourself interactive shiny app
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Donald",
+             family = "Seinen",
+             role = c("aut", "cre"),
+             email = "2869830202@qq.com",
+             comment = c(ORCID = "0000-0002-4343-5851"))
+  )
+Description: Interactive question solving of R-related questions.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.3),
+    rlang (>= 1.0.5),
+    shiny (>= 1.7.2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+URL: https://github.com/D-Se/app
+BugReports: https://github.com/D-Se/app/issues
+Depends: 
+    R (>= 2.10)
